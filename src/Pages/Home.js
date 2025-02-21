@@ -2,8 +2,10 @@
 
 function Home() {
     return (
-        <div>
-            <p>Home</p>
+        <div className="withNavBar">
+            <div className="content" id="HContent">
+                <p>Home</p>
+            </div>
         </div>
     )
 }

@@ -65,12 +65,30 @@ h2 {
   border-bottom: solid rgb(145, 145, 145) 2px;
 }
 
-.navItem:hover {
-  background-color: rgb(202, 202, 202);
+#falseH:hover {
+  background-color: rgb(175, 182, 149);
+}
+#falseS:hover {
+  background-color: rgb(96, 136, 168);
+}
+#falseG:hover {
+  background-color: rgb(110, 146, 107);
+}
+#falseA:hover {
+  background-color: rgb(165, 124, 165);
 }
 
-#true {
-  background-color: rgb(202,202,202,0.5)
+#trueH {
+  background-color: rgba(202, 195, 154, 0.5)
+}
+#trueS {
+  background-color: rgba(146, 175, 199, 0.5)
+}
+#trueG {
+  background-color: rgba(159, 202, 177, 0.5)
+}
+#trueA {
+  background-color: rgba(199, 163, 190, 0.5)
 }
 
 #navBar {
@@ -79,10 +97,6 @@ h2 {
   height: 30px;
   position: relative;
   top: 125px;
-}
-
-.withNavBar {
-  display: flex;
 }
 
 .sidebar {
@@ -115,4 +129,71 @@ h2 {
 
 #selected {
   background-color: rgb(185, 185, 185);
+}
+
+.withNavBar {
+  display: flex;
+}
+
+.gameButton {
+  background-color: aqua;
+  height: 20px;
+  width: 280px;
+  position: absolute;
+  top: 40px;
+}
+
+.gameButton:hover {
+  top: 58px;
+}
+
+#pressed {
+  top: 55px;
+}
+
+#gameholder {
+  height: 80px;
+  position:relative;
+  width: 80%;
+  margin: auto;
+}
+
+#floor {
+  height: 20px;
+  background-color: aquamarine;
+  position: absolute;
+  left: -192px;
+  top: 60px;
+  width: 100vw;
+}
+
+#player {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: blueviolet;
+  
+}
+
+.content {
+  position: relative;
+  width: 80%;
+  height: 100vh;
+  margin: auto;
+  top: -3px;
+  animation: 1s sideLoad;
+  animation-fill-mode: forwards;
+}
+
+#HContent {
+  background-color: rgb(224, 236, 170);
+}
+#GDContent {
+  background-color: rgb(160, 206, 160);
+}
+#SDContent {
+  background-color: rgb(166, 166, 207);
+}
+#AContent {
+  background-color: rgb(197, 146, 199);
 }

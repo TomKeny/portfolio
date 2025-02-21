@@ -9,7 +9,7 @@ function SoftwareDevelopment() {
     return (
         <div className="withNavBar">
             <SideBar names={names} contents={contents} project={project} setProject={setProject} />
-            <div className="content">
+            <div className="content" id="SDContent">
                 {project}
             </div>
         </div>

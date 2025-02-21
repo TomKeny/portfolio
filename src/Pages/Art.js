@@ -2,8 +2,10 @@
 
 function Art() {
     return (
-        <div>
-            <p>Art</p>
+        <div className="withNavBar">
+            <div className="content" id="AContent">
+                <p>Art</p>
+            </div>
         </div>
     )
 }
